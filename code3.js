@@ -65,7 +65,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "bg_sound.mp3", true, 100, 1);
-}{gdjs.evtTools.network.sendAsyncRequest("", "", "GET", "", runtimeScene.getScene().getVariables().getFromIndex(0), gdjs.VariablesContainer.badVariable);
+}{gdjs.evtTools.network.sendAsyncRequest("https://pm-moscow-game.ru/getscores", "", "GET", "", runtimeScene.getScene().getVariables().getFromIndex(0), gdjs.VariablesContainer.badVariable);
 }{runtimeScene.getGame().getVariables().getFromIndex(6).setNumber(0);
 }}
 

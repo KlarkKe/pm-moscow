@@ -58,7 +58,7 @@ gdjs.copyArray(runtimeScene.getObjects("TelegramEntry"), gdjs.SubmitScreenCode.G
 }{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("name").setString(runtimeScene.getGame().getVariables().getFromIndex(2).getAsString());
 }{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("score").setNumber(runtimeScene.getGame().getVariables().getFromIndex(3).getAsNumber());
 }{runtimeScene.getGame().getVariables().getFromIndex(4).getChild("telegramNick").setString((( gdjs.SubmitScreenCode.GDTelegramEntryObjects1.length === 0 ) ? "" :gdjs.SubmitScreenCode.GDTelegramEntryObjects1[0].getText()));
-}{gdjs.evtTools.network.sendAsyncRequest("", gdjs.evtTools.network.variableStructureToJSON(runtimeScene.getGame().getVariables().getFromIndex(4)), "POST", "application/json", gdjs.VariablesContainer.badVariable, gdjs.VariablesContainer.badVariable);
+}{gdjs.evtTools.network.sendAsyncRequest("https://pm-moscow-game.ru/addscore", gdjs.evtTools.network.variableStructureToJSON(runtimeScene.getGame().getVariables().getFromIndex(4)), "POST", "application/json", gdjs.VariablesContainer.badVariable, gdjs.VariablesContainer.badVariable);
 }
 { //Subevents
 gdjs.SubmitScreenCode.eventsList0(runtimeScene);} //End of subevents
