@@ -49,7 +49,7 @@ gdjs.EndScreenCode.eventsList0(runtimeScene);} //End of subevents
 
 
 };gdjs.EndScreenCode.mapOfGDgdjs_9546EndScreenCode_9546GDCheckUPObjects1Objects = Hashtable.newFrom({"CheckUP": gdjs.EndScreenCode.GDCheckUPObjects1});
-gdjs.EndScreenCode.userFunc0x114c6c8 = function GDJSInlineCode(runtimeScene) {
+gdjs.EndScreenCode.userFunc0xd271e0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
   var isMobile = /iPhone|iPad|iPod|Android|webOS|BlackBerry|Windows Phone|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent);
   if (isMobile) {
@@ -63,7 +63,7 @@ gdjs.EndScreenCode.eventsList2 = function(runtimeScene) {
 {
 
 
-gdjs.EndScreenCode.userFunc0x114c6c8(runtimeScene);
+gdjs.EndScreenCode.userFunc0xd271e0(runtimeScene);
 
 }
 
